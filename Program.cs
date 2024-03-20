@@ -2,6 +2,8 @@
 // 02/12/2024
 // Programming 120 _ W24 _ Midterm _ Menu
 using System.ComponentModel.Design;
+using System.Drawing;
+using System.Reflection.Metadata;
 using System.Threading.Channels;
 using System.Xml.Serialization;
 
@@ -110,26 +112,75 @@ namespace Prog_Fundamentals_Midterm_Ishak
             {
                 // 1. Net Income.
             }
-            else if(operation == "2") ;
+            //else if(operation == "2") ;
             {
                 // 2. Rule of 72.
             }
-            else if(operation == "3");
+            //else if(operation == "3");
             {
                 // 3. Net Worth.
             }
-            else if(operation == "4");
+            //else (operation == "4");
             {
                 // 4. Exit.
             }
 
+            //Geometry Calculator;
+            try
+            {
+                Console.WriteLine("1.Square");
+                Console.WriteLine("2.Rectangle");
+                Console.WriteLine("3.Circle");
+                Console.WriteLine("4.Right");
+                Console.WriteLine("5.Exit Geomety calculator");
+
+                    Console.Write("Enter your choice (1-5): ");
+                int choice = int.Parse(Console.ReadLine());
+
+                Console.WriteLine("1.CalculateSquareArea");
+                Console.WriteLine("2.CalculateRectangleArea");
+
+            }
+
             
 
+            Console.WriteLine("4.Cartesian Plane");
 
+            Console.Write("Enter the value of x: ");
 
+            int x = int.Parse(Console.ReadLine());
 
+            Console.Write("Enter the value of y: ");
+            int y = int.Parse(Console.ReadLine());
 
-
+            if (x == 0 && y == 0) 
+            {
+                Console.WriteLine("The point is at the origin.");
+            }
+            else if (x == 0) 
+            {
+                Console.WriteLine("The point is on the x-axis.");
+            }
+            else if (y == 0) 
+            {
+                Console.WriteLine("The point is on the y-axis.");
+            }
+            else if (x > 0 && y > 0)
+            {
+                Console.WriteLine("The point is in the first quadrant.");
+            }
+            else if (x < 0 && y > 0)
+            {
+                Console.WriteLine("The point is in the second quadrant.");
+            }
+            else if (x < 0 && y < 0)
+            {
+                Console.WriteLine("The point is in the third quadrant.");
+            }
+            else
+            {
+                Console.WriteLine("The point is in the fourth quadrant.");
+            }
 
 
 
