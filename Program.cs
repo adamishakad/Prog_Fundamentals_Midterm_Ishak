@@ -13,19 +13,19 @@ namespace Prog_Fundamentals_Midterm_Ishak
     {
         static void Main(string[] args)
         {
-        // Label : Start of our Menu:
+            //Label : Start of our Menu:
         Start:
 
-            // Display program information:
-            // Console.WriteLine("Adam I");
+            //Display program information:
+            //Console.WriteLine("Adam I");
             // Console.WriteLine("Date: 02-12-2024");
-            // Console.WriteLine("Programming 120 - Midterm\n");
+            //Console.WriteLine("Programming 120 - Midterm\n");
 
-            // Console.WriteLine("Midterm App main menu:");
+            //Console.WriteLine("Midterm App main menu:");
             //Console.WriteLine("1. Personal Calculator");
             //Console.WriteLine("2. Fanancial Calculator");
             // Console.WriteLine("3. Geomety Calculator");
-            // Console.WriteLine("4. Cartesian Plane");
+            //Console.WriteLine("4. Cartesian Plane");
             //Console.WriteLine("5. Exit");
             //Console.WriteLine("Select an option");
 
